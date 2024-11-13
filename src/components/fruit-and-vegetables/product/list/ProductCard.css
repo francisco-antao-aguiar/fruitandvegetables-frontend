@@ -1,0 +1,21 @@
+.product-card{
+  width: auto;
+  padding: 10px;
+}
+
+.product-card-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.price-amount{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.price-amount .input-number-product-card{
+  margin-top: 15px;
+}
+
+

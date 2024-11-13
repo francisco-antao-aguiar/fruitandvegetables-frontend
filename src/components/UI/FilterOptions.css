@@ -1,0 +1,18 @@
+.filter-options-field{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.filter-options-field input{
+  position: relative;
+  margin: 0;
+  top: 2px;
+  width: fit-content;
+}
+.filter-options-field label{
+  padding-left: 10px;
+  text-align: center;
+}

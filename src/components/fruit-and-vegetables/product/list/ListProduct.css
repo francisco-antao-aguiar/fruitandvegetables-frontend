@@ -1,0 +1,15 @@
+.list-products{
+  display: flex;
+  justify-content: center;
+}
+
+.products-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 7px;
+  
+  width: 100%;
+  height: fit-content;
+  
+  float: left;
+}

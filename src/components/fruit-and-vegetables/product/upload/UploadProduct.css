@@ -1,0 +1,60 @@
+.upload-product{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.others-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.others-container label{
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.measure-quantity-filter-options-field{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.measure-quantity-filter-options-field input{
+  position: relative;
+  margin: 0;
+  top: 2px;
+  width: fit-content;
+}
+
+.measure-quantity-filter-options-field label{
+  display: inline;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.image-container input {
+  width: 130px;
+  overflow:hidden;
+  color: transparent;
+}
+
+.image-container input{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-container img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.confirm-upload-image{
+  margin-top: 10px;
+}

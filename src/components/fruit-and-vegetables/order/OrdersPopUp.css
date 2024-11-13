@@ -1,0 +1,36 @@
+.order-pop-up-background{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  left: 0;
+}
+
+.order-pop-up-modal{
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 99;
+  top:0;
+  left: 0;
+}
+
+.order-pop-up-content{
+  position: absolute;
+  padding: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  min-width: 250px;
+}
+
+.order-pop-up-elems{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 50vh;
+  margin-bottom: 5%;
+  overflow-y: scroll;
+}

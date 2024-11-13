@@ -1,0 +1,21 @@
+.filter-min-max-field{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.min-max-field{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.min-max-field:after {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  content: "€";
+  right: 12%;
+}

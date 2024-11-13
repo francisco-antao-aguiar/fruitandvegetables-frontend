@@ -1,0 +1,6 @@
+.filter-product-container{
+  position: fixed;
+  width: 210px;
+  height: calc(100% - 160px);
+  float: left;
+}

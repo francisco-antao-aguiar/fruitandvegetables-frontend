@@ -1,0 +1,34 @@
+.number-input-container{
+  display: grid;
+  grid-template-columns: 28px 50px 28px;
+  gap: 1px;
+}
+
+.number-input-container .decrease-number-input{
+  height: 28px;
+  aspect-ratio: 1;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #b793ed;
+  border-radius: 50% 0 0 50%;
+  cursor: pointer;
+}
+
+.number-input-container .increase-number-input{
+  height: 28px;
+  aspect-ratio: 1;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #b793ed;
+  border-radius: 0 50% 50% 0;
+  cursor: pointer;
+}
+
+.number-input-container .number-input{
+  height: 26.7px;
+  background-color: #b793ed;
+  border: none;
+  text-align: center;
+}

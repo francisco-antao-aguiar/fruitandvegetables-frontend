@@ -1,0 +1,29 @@
+.upload-image-pop-up-background{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  left: 0;
+}
+
+.upload-image-pop-up-modal{
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 99;
+  top:0;
+  left: 0;
+}
+
+.upload-image-pop-up-content{
+  position: absolute;
+  padding: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 40%;
+  min-width: 350px;
+  min-height: 350px;
+}

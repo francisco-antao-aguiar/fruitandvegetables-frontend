@@ -1,0 +1,41 @@
+.user-pop-up-background{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  left: 0;
+}
+
+.user-pop-up-modal{
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 99;
+  top:0;
+  left: 0;
+}
+
+.user-pop-up-content{
+  position: absolute;
+  padding: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 150px;
+  text-align: center;
+}
+
+.user-pop-up-content h3{
+  margin-top: 0;
+}
+
+.user-confirm-button{
+  margin-top: 28px;
+  width: 180px;
+}
+
+.user-input{
+  width: 180px;
+}
